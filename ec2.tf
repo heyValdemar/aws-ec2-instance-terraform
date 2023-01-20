@@ -45,7 +45,7 @@ resource "aws_instance" "ec2_1" {
 
   depends_on = [
     tls_private_key.private_key_1,
-    aws_key_pair.key_pair_1,
+    aws_key_pair.key_pair_1
   ]
 
   tags = {
